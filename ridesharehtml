@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>CryptoKuchero | cryptokuchero.github.io</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="CryptoKuchero" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="stuff and ideas" />
+<meta property="og:description" content="stuff and ideas" />
+<link rel="canonical" href="https://cryptokuchero.github.io/" />
+<meta property="og:url" content="https://cryptokuchero.github.io/" />
+<meta property="og:site_name" content="cryptokuchero.github.io" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="CryptoKuchero" />
+<script type="application/ld+json">
+{"description":"stuff and ideas","url":"https://cryptokuchero.github.io/","@type":"WebSite","headline":"CryptoKuchero","name":"cryptokuchero.github.io","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=664a6e5ae6380c074eb5cb6b508989f2b3462e62">
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+      
+      <h1><a href="https://cryptokuchero.github.io/">cryptokuchero.github.io</a></h1>
+      
+
+      <h1 id="cryptokuchero">CryptoKuchero</h1>
+
+<p>How to run a carpool based on BTC-Lightning.</p>
+
+<h2 id="step-0-setup-your-lntxbot-ln-wallet">Step 0: Setup your lntxbot LN wallet</h2>
+
+<p>Follow the instructions here: https://www.coingecko.com/buzz/how-to-stack-sats-with-lntxbot</p>
+
+<h2 id="step-1-create-telegram-group-with-a-lightning-entrance-fee">Step 1: Create Telegram Group with a Lightning entrance fee</h2>
+
+<ol>
+  <li>Thanks to <a href="https://t.me/lntxbot">LnTxBot</a>, it is now possible to have everyone need to pay some sats to be able to continue on into a group.</li>
+  <li>You can start this by adding lntxbot to the chat group and trying the command <code class="language-plaintext highlighter-rouge">/toggle_ticket_100</code> which will make set it at 100 satoshis.</li>
+  <li>The main advantage of this is to keep out people who do not have LN to begin with</li>
+</ol>
+
+<h2 id="step-2-craigslist-listing">Step 2: Craigslist listing</h2>
+
+<p>Craigslist.org is <a href="https://en.wikipedia.org/wiki/Craigslist">one of the oldest classifieds</a> site. You can find “rideshare” listed under community tab. The link for rideshare. It allows for posting anonymously, by allowing the user to mask their email through the website.</p>
+
+<ol>
+  <li>Post on the rideshare community on craigslist about your carpool group and how to join on telegram. For example, if you are based in LA, you can go to https://losangeles.craigslist.org/d/rideshare/search/rid and post there.</li>
+  <li>Include the instructions to setup a telegram-based lightning wallet with <a href="https://t.me/lntxbot">LnTxBot</a>.</li>
+  <li>Please indicate “[LnCarpool]” on the headline so that it could be distinguished from the regular fiat-based.</li>
+  <li>You can share what route you take going to your work and back.</li>
+  <li>Remember to add much sats (satoshis) would you accept. It’s best to keep the fee lower than the usual offers so that people would be enticed.</li>
+</ol>
+
+<h2 id="step-3-rideshare">Step 3: Rideshare!</h2>
+
+<ol>
+  <li>Pick up the passenger</li>
+  <li>Talk about crypto while you enjoy the ridesharing.</li>
+  <li>If the person hasn’t setup in Step 0, ask them to setup their wallet. You may offer to load it up if they do not have any way to get BTC.</li>
+  <li>Enjoy the ride!</li>
+  <li>Once you arrive at the destination, simply ask the passenger to reply to one of your messages with /tip <amount of="" satoshis="">. You can also opt to do a lightning invoice if you have other lightning wallets.</amount></li>
+</ol>
+
+
+      
+      <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
+        This site is open source. <a href="https://github.com/cryptokuchero/cryptokuchero.github.io/edit/main/README.md">Improve this page</a>.
+      </div>
+      
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+  </body>
+</html>
